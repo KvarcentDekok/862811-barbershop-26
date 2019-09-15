@@ -38,7 +38,7 @@
 </header>
 
 <main>
-  <h1>Барбершоп Бородинский: Магазин</h1>
+  <h1 class="visually-hidden">Барбершоп Бородинский: Магазин</h1>
   <section>
     <h2>Средства для ухода</h2>
     <ul>
@@ -54,8 +54,53 @@
     </ul>
 
     <section>
-      <h3>Фильтр</h3>
-      <form></form>
+      <h3 class="visually-hidden">Фильтр</h3>
+      <form method="post" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Производители:</legend>
+          <label>
+            <input type="checkbox" name="manufacturer" value="Baxter of California" checked>
+            Baxter of California
+          </label>
+          <label>
+            <input type="checkbox" name="manufacturer" value="Mr Natty">
+            Mr Natty
+          </label>
+          <label>
+            <input type="checkbox" name="manufacturer" value="Suavecito" checked>
+            Suavecito
+          </label>
+          <label>
+            <input type="checkbox" name="manufacturer" value="Malin+Goetz">
+            Malin+Goetz
+          </label>
+          <label>
+            <input type="checkbox" name="manufacturer" value="Murray's">
+            Murray's
+          </label>
+          <label>
+            <input type="checkbox" name="manufacturer" value="American Crew" checked>
+            American Crew
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров:</legend>
+          <label>
+            <input type="radio" name="goods-group" value="Бритвенные принадлежности">
+            Бритвенные принадлежности
+          </label>
+          <label>
+            <input type="radio" name="goods-group" value="Средства для ухода" checked>
+            Средства для ухода
+          </label>
+          <label>
+            <input type="radio" name="goods-group" value="Аксессуары">
+            Аксессуары
+          </label>
+        </fieldset>
+
+        <button type="submit">Показать</button>
+      </form>
     </section>
 
     <section>
@@ -152,6 +197,30 @@
   </section>
 </main>
 
+<aside>
+  <h2 class="visually-hidden">Форма входа</h2>
+  <p>Личный кабинет</p>
+  <p>Введите, пожалуйста, свой логин и пароль</p>
+  <form method="post" action="https://echo.htmlacademy.ru">
+    <div>
+      <label for="login">Логин</label>
+      <input type="text" id="login" name="login">
+    </div>
+    <div>
+      <label for="password">Пароль</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <label>
+      <input type="checkbox" name="remember" checked>
+      Запомните меня
+    </label>
+    <a href="#">Я забыл пароль!</a>
+    <button type="submit">Войти</button>
+  </form>
+
+  <button type="button">Закрыть</button>
+</aside>
+
 <footer>
   <article>
     <h2>Контакты</h2>
@@ -166,13 +235,13 @@
     <p>Давайте дружить!</p>
     <ul>
       <li>
-        <a href="#">ВК</a>
+        <a href="#">Барбершоп Бородинский в ВК</a>
       </li>
       <li>
-        <a href="#">Facebook</a>
+        <a href="#">Барбершоп Бородинский в Facebook</a>
       </li>
       <li>
-        <a href="#">Instagram</a>
+        <a href="#">Барбершоп Бородинский в Instagram</a>
       </li>
     </ul>
   </div>

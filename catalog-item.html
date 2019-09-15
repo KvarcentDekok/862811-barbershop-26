@@ -55,7 +55,7 @@
   </ul>
 
   <section>
-    <h2>Галерея</h2>
+    <h2 class="visually-hidden">Галерея</h2>
     <figure>
       <img src="img/3-item.jpg" alt="Набор для путешествий «Baxter of California»" width="461" height="499">
     </figure>
@@ -73,9 +73,9 @@
   </section>
 
   <section>
-    <h2>Информация о товаре</h2>
+    <h2 class="visually-hidden">Информация о товаре</h2>
     <section>
-      <h3>Описание товара</h3>
+      <h3 class="visually-hidden">Описание товара</h3>
       <p>
         <span>Есть в наличии</span>
         <span>Артикул: dexter-ae</span>
@@ -91,7 +91,7 @@
       </div>
     </section>
     <section>
-      <h3>Состав</h3>
+      <h3 class="visually-hidden">Состав</h3>
       <p>В набор входят:</p>
       <ul>
         <li>Средство для умывания (50 мл)</li>
@@ -106,7 +106,7 @@
 
 <footer>
   <article>
-    <h2>Контакты</h2>
+    <h2 class="visually-hidden">Контакты</h2>
     <p>
       БАРБЕРШОП «БОРОДИНСКИЙ»<br>
       АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
@@ -118,13 +118,13 @@
     <p>Давайте дружить!</p>
     <ul>
       <li>
-        <a href="#">ВК</a>
+        <a href="#">Барбершоп Бородинский в ВК</a>
       </li>
       <li>
-        <a href="#">Facebook</a>
+        <a href="#">Барбершоп Бородинский в Facebook</a>
       </li>
       <li>
-        <a href="#">Instagram</a>
+        <a href="#">Барбершоп Бородинский в Instagram</a>
       </li>
     </ul>
   </div>
@@ -133,5 +133,29 @@
     <a href="https://htmlacademy.ru/">HTML Academy</a>
   </div>
 </footer>
+
+<aside>
+  <h2 class="visually-hidden">Форма входа</h2>
+  <p>Личный кабинет</p>
+  <p>Введите, пожалуйста, свой логин и пароль</p>
+  <form method="post" action="https://echo.htmlacademy.ru">
+    <div>
+      <label for="login">Логин</label>
+      <input type="text" id="login" name="login">
+    </div>
+    <div>
+      <label for="password">Пароль</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <label>
+      <input type="checkbox" name="remember" checked>
+      Запомните меня
+    </label>
+    <a href="#">Я забыл пароль!</a>
+    <button type="submit">Войти</button>
+  </form>
+
+  <button type="button">Закрыть</button>
+</aside>
 </body>
 </html>
