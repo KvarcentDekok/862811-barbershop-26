@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: local("PT Sans Narrow"),
+  url(../fonts/ptsansnarrow.woff) format("woff"),
+  url(../fonts/ptsansnarrow.woff2) format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: local("PT Sans Narrow Bold"),
+  url(../fonts/ptsansnarrowbold.woff) format("woff"),
+  url(../fonts/ptsansnarrowbold.woff2) format("woff2");
+  font-weight: bold;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+
+.header {
+  background-color: #000000;
+}
+
+.header ul,
+.footer ul {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+
+  border: none;
+  background-color: transparent;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #242424;
+}
+
+.main {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #F8F5F2;
+}
+
+.title{
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.breadcrumbs a:not([href]) {
+  color: #ABA9A7;
+}
+
+.filter-field {
+  border: none;
+}
+
+.filter-field legend {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.filter-field ul {
+  list-style: none;
+}
+
+.button {
+  border: none;
+
+  font-weight: inherit;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.button:hover,
+.button:active {
+  background-color: #663D15;
+}
+
+.social .button {
+  font-size: 1px;
+  color: transparent;
+}
+
+.button-vk {
+  background: #000000 url("../img/vk.svg") no-repeat 50%;
+}
+
+.button-fb {
+  background: #000000 url("../img/facebook.svg") no-repeat 50%;
+}
+
+.button-instagram {
+  background: #000000 url("../img/instagram.svg") no-repeat 50%;
+}
+
+.checkbox:hover,
+.radio:hover {
+  color: #663D15;
+}
+
+.goods-cards {
+  list-style: none;
+}
+
+.card-title {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.good-type {
+  text-transform: none;
+}
+
+.price p {
+  font-size: 14px;
+  line-height: 18px;
+
+  background-color: #E5E5E5;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination a:hover {
+  background-color: #663D15;
+}
+
+.pagination a:not([href]) {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.footer {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background: #212121 url("../img/footer-bg.png") no-repeat;
+  background-size: cover;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.modal {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #FBF8F5;
+}
+
+.custom-input input {
+  border: 2px solid #000000;
+
+  font-family: inherit;
+  font-weight: inherit;
+
+  background-color: #ffffff;
+}
+
+.custom-input input:focus {
+  outline: none;
+  border-color: #663D15;
+}
+
+.form-forgot {
+  color: #000000;
+}
+
+.close {
+  border: none;
+
+  font-size: 1px;
+  color: transparent;
+
+  background: url("../img/cross.svg") no-repeat 50%;
+}
+
+
+
+
