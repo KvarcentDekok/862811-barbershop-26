@@ -57,7 +57,7 @@
   text-transform: uppercase;
   color: #000000;
 
-  background-color: #F8F5F2;
+  background: #F8F5F2 url("../img/main-bg.png") repeat 0 0;
 }
 
 .title{
@@ -182,8 +182,7 @@
   text-transform: uppercase;
   color: #ffffff;
 
-  background: #212121 url("../img/footer-bg.png") no-repeat;
-  background-size: cover;
+  background: #212121 url("../img/footer-bg.png") repeat 0 0;
 }
 
 .underline {
@@ -195,7 +194,7 @@
   font-weight: bold;
   text-transform: uppercase;
 
-  background-color: #FBF8F5;
+  background: #F8F5F2 url("../img/main-bg.png") repeat 0 0;
 }
 
 .custom-input input {
