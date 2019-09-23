@@ -225,6 +225,17 @@
   background: url("../img/cross.svg") no-repeat 50%;
 }
 
+.vendor-code {
+  color: #aeaeae;
+}
+
+.consist {
+  list-style: none;
+}
+
+.gallery ul {
+  list-style: none;
+}
 
 
 

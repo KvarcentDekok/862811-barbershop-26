@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Набор для путешествий «Baxter of California»</title>
+  <meta charset="UTF-8">
+  <title>Набор для путешествий «Baxter of California»</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+<header class="header">
   <nav>
     <ul>
       <li>
-        <a  href="index.html">
-          <img src="#" alt="Барбершоп Бородинский">
+        <a  href="index.html" class="nav-link">
+          <img src="img/logo-small.svg" alt="Барбершоп Бородинский" width="111" height="24">
         </a>
       </li>
       <li>
-        <a href="#">Информация</a>
+        <a href="#" class="nav-link">Информация</a>
       </li>
       <li>
-        <a href="#">Новости</a>
+        <a href="#" class="nav-link">Новости</a>
       </li>
       <li>
-        <a href="#">Прайс-лист</a>
+        <a href="#" class="nav-link">Прайс-лист</a>
       </li>
       <li>
-        <a href="catalog.html">Магазин</a>
+        <a href="catalog.html" class="nav-link">Магазин</a>
       </li>
       <li>
-        <a href="#">Контакты</a>
+        <a href="#" class="nav-link">Контакты</a>
       </li>
     </ul>
     <ul>
       <li>
-        <button type="button">Вход</button>
+        <button type="button" class="nav-link">Вход</button>
       </li>
     </ul>
   </nav>
 </header>
 
-<main>
-  <h1>Набор для путешествий «Baxter of California»</h1>
-  <ul>
+<main class="main">
+  <h1 class="title">Набор для путешествий «Baxter of California»</h1>
+  <ul class="breadcrumbs">
     <li>
       <a href="index.html">Главная</a>
     </li>
@@ -54,7 +57,7 @@
     </li>
   </ul>
 
-  <section>
+  <section class="gallery">
     <h2 class="visually-hidden">Галерея</h2>
     <figure>
       <img src="img/3-item.jpg" alt="Набор для путешествий «Baxter of California»" width="461" height="499">
@@ -78,22 +81,22 @@
       <h3 class="visually-hidden">Описание товара</h3>
       <p>
         <span>Есть в наличии</span>
-        <span>Артикул: dexter-ae</span>
+        <span class="vendor-code">Артикул: dexter-ae</span>
       </p>
       <p>
         Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все,
         что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания,
         увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
       </p>
-      <div>
+      <div class="price">
         <p>2900 ₽</p>
-        <button type="button">Купить</button>
+        <button type="button" class="button">Купить</button>
       </div>
     </section>
     <section>
       <h3 class="visually-hidden">Состав</h3>
       <p>В набор входят:</p>
-      <ul>
+      <ul class="consist">
         <li>Средство для умывания (50 мл)</li>
         <li>Увлажняющий крем (50 мл)</li>
         <li>Крем для бритья (50 мл)</li>
@@ -104,58 +107,58 @@
   </section>
 </main>
 
-<footer>
+<footer class="footer">
   <article>
     <h2 class="visually-hidden">Контакты</h2>
     <p>
       БАРБЕРШОП «БОРОДИНСКИЙ»<br>
       АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-      КАК НАС НАЙТИ?<br>
+      <span class="underline">КАК НАС НАЙТИ?</span><br>
       ТЕЛЕФОН: +7 (495) 666-02-66
     </p>
   </article>
   <div>
     <p>Давайте дружить!</p>
-    <ul>
+    <ul class="social">
       <li>
-        <a href="#">Барбершоп Бородинский в ВК</a>
+        <a href="#" class="button button-vk">Барбершоп Бородинский в ВК</a>
       </li>
       <li>
-        <a href="#">Барбершоп Бородинский в Facebook</a>
+        <a href="#" class="button button-fb">Барбершоп Бородинский в Facebook</a>
       </li>
       <li>
-        <a href="#">Барбершоп Бородинский в Instagram</a>
+        <a href="#" class="button button-instagram">Барбершоп Бородинский в Instagram</a>
       </li>
     </ul>
   </div>
   <div>
     <p>Разработано:</p>
-    <a href="https://htmlacademy.ru/">HTML Academy</a>
+    <a href="https://htmlacademy.ru/" class="button">HTML Academy</a>
   </div>
 </footer>
 
-<aside>
+<aside class="modal">
   <h2 class="visually-hidden">Форма входа</h2>
-  <p>Личный кабинет</p>
-  <p>Введите, пожалуйста, свой логин и пароль</p>
+  <p class="title">Личный кабинет</p>
+  <p class="paragraph">Введите, пожалуйста, свой логин и пароль</p>
   <form method="post" action="https://echo.htmlacademy.ru">
-    <div>
+    <div class="custom-input">
       <label for="login">Логин</label>
       <input type="text" id="login" name="login">
     </div>
-    <div>
+    <div class="custom-input">
       <label for="password">Пароль</label>
       <input type="password" id="password" name="password">
     </div>
-    <label>
+    <label class="checkbox">
       <input type="checkbox" name="remember" checked>
       Запомните меня
     </label>
-    <a href="#">Я забыл пароль!</a>
-    <button type="submit">Войти</button>
+    <a href="#" class="form-forgot">Я забыл пароль!</a>
+    <button type="submit" class="button">Войти</button>
   </form>
 
-  <button type="button">Закрыть</button>
+  <button type="button" class="close">Закрыть</button>
 </aside>
 </body>
 </html>
