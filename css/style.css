@@ -14,6 +14,11 @@
   font-weight: bold;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 .visually-hidden {
   position: absolute;
@@ -24,6 +29,12 @@
 }
 
 
+.container {
+  width: 941px;
+
+  margin: 0 auto;
+}
+
 .header {
   background-color: #000000;
 }
@@ -31,6 +42,16 @@
 .header ul,
 .footer ul {
   list-style: none;
+}
+
+.main-nav {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .nav-link {
@@ -52,12 +73,24 @@
 }
 
 .main {
+  padding-top: 50px;
+
   font-family: "PT Sans Narrow", Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
 
   background: #F8F5F2 url("../img/main-bg.png") repeat 0 0;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-head {
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .title{
@@ -81,6 +114,10 @@
 
 .breadcrumbs a:not([href]) {
   color: #ABA9A7;
+}
+
+.filter {
+  width: 167px;
 }
 
 .filter-field {
@@ -135,8 +172,22 @@
   color: #663D15;
 }
 
+.goods {
+  width: 700px;
+}
+
 .goods-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   list-style: none;
+  padding: 0;
+}
+
+.goods-card {
+  width: 220px;
+
+  background-color: #ffffff;
 }
 
 .card-title {
@@ -176,6 +227,20 @@
   background-color: #ffffff;
 }
 
+.gallery {
+  width: 460px;
+}
+
+.small-pictures {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.info-good {
+  width: 380px;
+}
+
 .footer {
   font-family: "PT Sans Narrow", Arial, sans-serif;
   font-weight: bold;
@@ -185,8 +250,16 @@
   background: #212121 url("../img/footer-bg.png") repeat 0 0;
 }
 
-.underline {
-  text-decoration: underline;
+.footer-inner {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-right: 90px;
+}
+
+.copyright {
+  margin-left: auto;
 }
 
 .modal {
